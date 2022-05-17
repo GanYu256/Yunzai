@@ -12,7 +12,7 @@
 # 可选插件安装
 git clone https://github.com/Ganyu256/Yunzai 
 
-或者用国内地址 git clone https://gitee.con/Gnayu256/Yunzai
+或者用国内地址 git clone https://gitee.com/Gnayu256/Yunzai
 
 下载完使用这个命令启动 bash Yunzai/Yunzai-Bot.sh
 
