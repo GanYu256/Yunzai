@@ -22,7 +22,9 @@ bash Yunzai/Yunzai-Bot.sh
 
 除Yunzai-Bot外，此程序可选安装“喵喵插件”,“黄历插件”,“ffmpeg”；
 
-#我全都要（Yunzai-Bot，喵喵插件，黄历插件，ffmpeg全部自动安装）
+# 我全都要懒人版
+
+Yunzai-Bot，喵喵插件，黄历插件，ffmpeg全部自动安装
 
 curl -sL https://gitee.com/Ganyu256/Yunzai/raw/main/Yunzai-install-all.sh | bash
 
