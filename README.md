@@ -1,7 +1,8 @@
-# Yunzai-Bot安装程序
-Yunzai-bot安装程序（内含喵喵、黄历、ffmpeg）
-此程序用于ARM64架构 Ubuntu 18.04 LTS系统上部署Yunzai-bot程序
-注意！！！此部署程序仅适用于arm64架构的ubuntu 18.04
+# Yunzai
+Yunzai-bot自动部署
+
+此程序使用于ARM64架构 Ubuntu 18.04 LTS系统
+此程序也仅适用于arm64架构的ubuntu 18.04 LTS系统
 其他平台架构，系统请不要使用，非ubuntu 18.04也不要用
 不听劝，非要使用，后果自负！本人不承担任何责任！
 
