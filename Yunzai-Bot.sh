@@ -279,7 +279,7 @@ function ffmpeg()
         echo 下载所需资源中！
         echo ffmpeg从git拉取，速度不稳定！耐心等待...
         cd ~/ffmpeg/res
-        git clone https://github.com/FFmpeg/FFmpeg.git ffmpeg
+        git clone http://github.com/FFmpeg/FFmpeg.git ffmpeg
         if [ $? -ne 0 ]; then
             echo "ffmpeg拉取失败！请检查网络！"
         else
