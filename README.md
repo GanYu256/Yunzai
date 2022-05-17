@@ -8,9 +8,9 @@ Yunzai-Bot安装程序（带喵喵插件、黄历插件、ffmpeg）
 其他平台架构，系统请不要使用，非ubuntu 18.04也不要用
 不听劝，非要使用，后果自负！本人不承担任何责任！
 
-
+可选插件安装使用这个：
 git clone https://github.com/Ganyu/Yunzai
-bash Yunzai/Yunzai-Bot.sh
+下载完使用这个命令启动 bash Yunzai/Yunzai-Bot.sh
 
 除Yunzai-Bot外，可选安装“喵喵插件”,“黄历插件”,“ffmpeg”；
 
