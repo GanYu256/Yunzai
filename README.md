@@ -1,6 +1,4 @@
-# Yunzai
-Yunzai-bot自动部署
-
+# Yunzai-Bot自动部署
 此程序使用于ARM64架构 Ubuntu 18.04 LTS系统
 
 此程序也仅适用于arm64架构的ubuntu 18.04 LTS系统
