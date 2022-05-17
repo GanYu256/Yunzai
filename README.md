@@ -8,6 +8,10 @@ Yunzai-Bot安装程序（带喵喵插件、黄历插件、ffmpeg）
 其他平台架构，系统请不要使用，非ubuntu 18.04也不要用
 不听劝，非要使用，后果自负！本人不承担任何责任！
 
+
+git clone https://github.com/Ganyu/Yunzai
+bash Yunzai/Yunzai-Bot.sh
+
 除Yunzai-Bot外，可选安装“喵喵插件”,“黄历插件”,“ffmpeg”；
 
 ffmpeg插件用于mp3转amr，文本转语音。根据自身需求安装插件包
