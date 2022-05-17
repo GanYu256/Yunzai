@@ -272,7 +272,7 @@ function ffmpeg()
         echo
         echo '创建目录'
         mkdir ~/ffmpeg
-        mkdir ~/ffmpge/res
+        mkdir ~/ffmpeg/res
         mkdir ~/ffmpeg/tmp
         chmod -R 777 ~/ffmpeg
         echo
