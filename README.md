@@ -12,9 +12,13 @@
 # 可选插件安装
 git clone https://github.com/Ganyu256/Yunzai 
 
-或者用国内地址 git clone https://gitee.com/Gnayu256/Yunzai
+或者用国内地址 
 
-下载完使用这个命令启动 bash Yunzai/Yunzai-Bot.sh
+git clone https://gitee.com/Gnayu256/Yunzai
+
+下载完使用这个命令启动 
+
+bash Yunzai/Yunzai-Bot.sh
 
 除Yunzai-Bot外，此程序可选安装“喵喵插件”,“黄历插件”,“ffmpeg”；
 
