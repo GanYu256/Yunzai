@@ -248,7 +248,7 @@ function ffmpeg()
         #arm64架构 ubuntu-18.04 LTS自动配置Yunzai-Bot音频转码“ffmpeg相关依赖”
         #由于ffmpeg从Git拉取，众所周知Git网速极其稳定（bushi）。如果出现拉取特别慢，请睡一觉(bushi)
         echo 部署系统编译环境：
-        apt install -y automake autoconf libtool gcc gcc- git wget curl
+        apt install -y automake autoconf libtool gcc gcc- git wget curl unzip
         if [ $? -ne 0 ]; then
             echo "失败了！"
         else
@@ -280,7 +280,7 @@ function ffmpeg()
         chmod -R 777 ./yasm-1.3.0
         cd yasm-1.3.0
         echo 配置yasm源码
-        ./configure -build=arm-linux
+        ./configure --build=arm-linux
         echo 编译yasm源码
         make
         echo 安装yasm
@@ -293,7 +293,7 @@ function ffmpeg()
         chmod -R 777 ./lame-3.99.5
         cd lame-3.99.5
         echo 配置lame源码
-        ./configure -build=arm-linux
+        ./configure --build=arm-linux
         echo 编译lame源码
         make
         echo 安装lame
@@ -361,22 +361,24 @@ function ffmpeg()
         echo 进行mp3转amr测试！
         cd ~/ffmpeg-install
         rm -rf ./test/*
-        chmod -R 777 ./test/
         ffmpeg -i ./res/test.mp3 -ac 1 -ar 8000 ./test/测试成功.amr
+        echo
         echo 列出转码文件
         ls ./test/
+        echo
         echo 当你看到“测试成功.amr”文件时说明已经部署成功！
         echo 你可以前往机器人进行测试！
         echo 脚本编辑于2022-5-17 16:00
         echo 编辑者QQ：2430248074 
-        echo 感谢CNDS用户 @张近微：https://blog.csdn.net/weixin_32563347/article/details/116680608
-        echo 感谢CNDS用户 @weixin_39807691 : https://blog.csdn.net/weixin_39807691/article/details/116910741
         echo      ▬▬.◙.▬▬
         echo    ▂▄▄▓▄▄▂
         echo ◢◤ █▀▀████▄▄▄▄▄◢◤
         echo ██再见████▀▀▀▀╬
         echo     ◥███████◤
         echo     ══╩══╩══我走了，我不打扰！
+        
+        echo 退出安装程序
+        exit
 
 }
 
